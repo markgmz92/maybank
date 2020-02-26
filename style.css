@@ -1,0 +1,112 @@
+body {
+    background-image: linear-gradient(#001d6d, black);
+}
+
+header {
+    margin-top: -50px; 
+    padding: 10px;
+}
+
+td,th {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.up {
+    border: solid green;
+    border-width: 0 12px 12px 0;
+    display: inline-block;
+    margin: 5%;
+    padding:5%;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    border: solid red;
+    border-width: 0 12px 12px 0;
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+  }
+ 
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+
+.table-content{
+    position: relative;
+    padding: 10px;
+    border-spacing: 0;
+    margin: 10%;
+}
+
+table {
+    background-color: black;
+    border-collapse: collapse;
+}
+
+
+/* Ticker */
+
+
+.onoffswitch3
+{
+    position: absolute; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    width: 95%;
+    height: 10%;
+}
+
+.onoffswitch3-checkbox {
+    display: none;
+}
+
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    width: 100%;
+}
+
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch3-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: 'OCR', sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.onoffswitch3-inner .onoffswitch3-active {
+    font-size: large;
+    margin: 100px;
+    background-color: yellow; color: red;
+}
+
+
+.onoffswitch3-switch {
+    display: block; width: 20%; margin: 0px; text-align: center; 
+    border: 0px solid #999999;border-radius: 0px; 
+    position: absolute; top: 0; bottom: 0;
+}
+.onoffswitch3-active .onoffswitch3-switch {
+    background: black; left: 0;
+    width: 160px;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+
+
+.scroll-text {
+    font-size: 20px;
+    color: black;
+}
