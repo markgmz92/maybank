@@ -2,7 +2,7 @@ setInterval(function scroll() {
     $("div").each(function(i, e) {
       $("html, body").animate({
         scrollTop: $(e).offset().top
-      }, 9500).delay(10000); // First value is a speed of scroll, and second time break
+      }, 9500).delay(500); // First value is a speed of scroll, and second time break
     });
   
     setTimeout(function() {
