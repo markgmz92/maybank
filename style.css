@@ -11,6 +11,7 @@ body {
 header {
     margin-top: -50px; 
     padding: 10px;
+    position: sticky;
 }
 
 .day {
@@ -34,8 +35,8 @@ h1 {
     border-width: 0px 0.25em 0.25em 0px;
     display: inline-block;
     justify-content: center;
-    margin: 5px;
     padding: 5px;
+    text-align: center;
 }
   
 
@@ -48,7 +49,7 @@ h1 {
     border: solid red;
     border-width: 0 0.25em 0.25em 0;
     display: inline-block;
-    margin: 5px;
+    justify-content: center;
     padding: 5px;
   }
  
@@ -66,12 +67,14 @@ h1 {
 
 .table {
     font-family: 'OCR A Extended';
-    margin-top: 10%;
+    margin-top: 5%;
     position: relative;
     background-color: black;
     font-size: 30px;
     color: white;
     overflow-y: auto;
+    text-align: center;
+    padding: 5px 10px;
 }
 
 
