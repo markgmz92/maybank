@@ -13,3 +13,5 @@ setInterval(function scroll() {
     return scroll;
   }(),1000); //This value means after what time should the function be triggered again
   //(It should be sum of all animation time and delay) 9000 = 5000 + 4000
+
+  
