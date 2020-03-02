@@ -23,19 +23,36 @@ h1{
 
 .table td, .table th {
     padding: 0;
+    left: -100px;
+    margin: 5px;
 }
-
+i {
+    position: relative;
+    padding: 10px;
+    top: 10px;
+}
 .up {
     border: solid green;
     border-width: 0px 0.25em 0.25em 0px;
     display: inline-block;
     justify-content: center;
     padding: 5px;
+    padding: -10px;
     margin: 5px;
+    left: -10px;
+}
+
+.down {
+    border: solid red;
+    border-width: 0 0.25em 0.25em 0;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
     top: 10px;
     left: -10px;
-    text-align: center;
-}
+   
+  }
 
 /**[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
@@ -54,15 +71,7 @@ h1{
     -webkit-transform: rotate(-135deg);
   }
 
-  .down {
-    border: solid red;
-    border-width: 0 0.25em 0.25em 0;
-    display: inline-block;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
-    top: 10px;
-  }
+  
  
     .down {
         transform: rotate(45deg);
@@ -217,6 +226,34 @@ h1{
         font-size: 20px;
         top: -10px;
     }
+
+    i {
+        position: relative;
+        padding: 10px;
+        top: 10px;
+    }
+    .up {
+        border: solid green;
+        border-width: 0px 0.25em 0.25em 0px;
+        display: inline-block;
+        justify-content: center;
+        padding: 5px;
+        padding: -10px;
+        margin: 5px;
+        left: -5px;
+    }
+    
+    .down {
+        border: solid red;
+        border-width: 0 0.25em 0.25em 0;
+        display: inline-block;
+        position: relative;
+        padding: 5px;
+        margin: 10px;
+        top: 10px;
+        left: -5px;
+       
+      }
 
   
     .table {
