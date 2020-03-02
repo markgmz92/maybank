@@ -28,8 +28,7 @@ h1{
 }
 i {
     position: relative;
-    padding: 10px;
-    top: 10px;
+    padding: 10%;
 }
 .up {
     border: solid green;
