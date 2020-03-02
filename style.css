@@ -108,7 +108,7 @@ h1 {
 
 .onoffswitch3-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 0px solid #999999; border-radius: 0px;
+    border: 0px solid red; border-radius: 10px;
     width: 100%;
 }
 
@@ -118,38 +118,37 @@ h1 {
     -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
 }
 
-.onoffswitch3-inner > span {
-    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; font-family: 'OCR', sans-serif; font-weight: bold;
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-}
-
-.onoffswitch3-inner .onoffswitch3-active {
-    font-size: large;
-    background-color: yellow; color: red;
-}
-
 
 .onoffswitch3-switch {
     font-family: 'OCR A Extended';
     font-size: 25px;
-    padding-top: -10px;
-    margin-top: -100px;
-    margin: 5px;
-    display: grid; width: 20%; margin: 0px; text-align: center; 
-    border: 0px solid #999999;border-radius: 0px; 
-    position: absolute; top: 0; bottom: 0;
-    color: red;
+    width: 20%;
+    display: block; margin: 0px;
+    margin: 10px;
+    padding: 20px;
+    background-color: blue;
+    border: 10px solid blue; 
+    position: absolute; top: -10px; bottom: -10px; left: -10px;
+    color: yellow;
+    z-index: 1;
 }
 .onoffswitch3-active .onoffswitch3-switch {
     background: black; left: 0;
     width: 160px;
 }
 .onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
-    margin-left: 0;
+    margin-left: 10px;
 }
 
-
+.glyphicon-remove{
+    padding: 3px 0px 0px 0px;
+    color: #fff;
+    background-color: #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
 .scroll-text {
     font-family: 'OCR A Extended';
     font-size: 30px;
