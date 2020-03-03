@@ -12,13 +12,18 @@ body {
 .navbar {
     background-color: orange;
     width: auto;
+    top: 50px;
 }
 
 h1{
     color: white;
-    font-size: 50px;
-    padding-top: 100px;
-    bottom: 10px;
+    font-size: 40px;
+    top: -30px;
+    text-align: left;
+}
+
+.day {
+    background-color: black;
 }
 
 .table td, .table th {
@@ -63,6 +68,8 @@ i {
     border-color: #007bff;
     font-size: 20px;
     margin: 20px;
+    top: -75px;
+    position: relative;
 }
 
   .up {
@@ -174,16 +181,35 @@ i {
     }
 
     h1 {
-        font-size: 30px;
-        bottom: 10px;
-        position: relative;
-        z-index: 1;
-        top: -40px;
+        font-size: 25px;
     }
 
-    .navbar {
-        background-color: orange;
+
+    .fixed-top {
+        position: fixed; 
+        top: 0;
+        right: 0;
+        left: 0;
+        /* z-index: 1030; */
     }
+
+    .day {
+        background-color: black;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 20px;
+        margin: 20px;
+        padding: 10px;
+        top: 80px;
+        bottom: 30px;
+        position: relative;
+    }
+
+   
 
     .onoffswitch3-inner {
     display: absolute; width: 200%; margin-left: -100%;
@@ -199,7 +225,6 @@ i {
     padding-top: 10px;
     top: -10px;
     position: relative;
-    height: auto;
 }
 
 .onoffswitch3-switch-day {
@@ -216,15 +241,8 @@ i {
     border: 5% solid black; 
     position: absolute; top: -25px; bottom: 0; left: -20px;
     color: red;
-    z-index: 1;
 }
 
-    .scroll-button {
-        left: -10px;
-        margin: 20px;
-        font-size: 20px;
-        top: -10px;
-    }
 
 
   
@@ -236,19 +254,21 @@ i {
         position: relative;
         background-color: black;
         color: white;
-        top: 20px;
+        top: 70px;
     }
 
     .navbar {
-        position: relative;
-        /* display: flex; */
-        -ms-flex-wrap: wrap;
-        /* flex-wrap: wrap; */
-        -ms-flex-align: center;
-        /* align-items: center; */
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        /* padding: .5rem 1rem; */
+        background-color: orange;
+        top: 65px;
+        position: fixed;
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    /* justify-content: space-between; */
+    padding: .5rem 1rem;
     }
 
 
@@ -265,14 +285,16 @@ i {
     
         h1 {
             font-size: 20px;
-            bottom: 10px;
-            position: relative;
-            z-index: 1;
-            top: -70px;
         }
     
         .navbar {
             background-color: orange;
+        }
+
+       
+
+        .day {
+            background-color: black;
         }
     
         .onoffswitch3-inner {
@@ -297,15 +319,13 @@ i {
     .onoffswitch3-switch {
         font-family: 'OCR A Extended';
         font-size: 20px;
-        width: 20%;
         display: block; margin: 0px;
         margin: auto;
         padding: 20px;
         background-color: black;
         border: 5% solid black; 
         position: absolute; top: -25px; bottom: 0; left: -20px;
-        color: red;
-        z-index: 1;
+        color: blue;
     }
     
       
