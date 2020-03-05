@@ -68,8 +68,9 @@ i {
     border-color: #007bff;
     font-size: 20px;
     margin: 20px;
-    top: -75px;
-    position: relative;
+    top: 100px;
+    right: 5px;
+    position: fixed;
 }
 
   .up {
