@@ -339,3 +339,86 @@ i {
         top: 40px;
     }
 }
+
+@media (min-width: 1000px) and (max-width: 1299px)
+{ 
+
+    body {
+        font-family: 'OCR A Extended';
+        background-color: black;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+    .fixed-top {
+        position: fixed; 
+        top: 0;
+        right: 0;
+        left: 0;
+        /* z-index: 1030; */
+    }
+
+    .day {
+        background-color: black;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 20px;
+        top: 100px;
+        right: 0;
+        position: fixed;
+        z-index: -1;
+    }
+    
+    .onoffswitch3-inner {
+    display: absolute; width: 200%; margin-left: -100%;
+    bottom: 100px;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+
+    .scroll-text {
+    font-family: 'OCR A Extended';
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    top: -10px;
+    position: relative;
+    }
+
+    .onoffswitch3-switch-day {
+    position: absolute;
+    }
+
+    .onoffswitch3-switch {
+    font-family: 'OCR A Extended';
+    font-size: 18px;
+    margin: 0px;
+    background-color: black;
+    border: auto solid black; 
+    position: absolute; top: -20px; bottom: 0; left: -20px;
+    color: red;
+    }
+
+    .table {
+        font-family: 'OCR A Extended';
+        font-size: auto;
+        padding: auto;
+        margin-top: auto;
+        position: relative;
+        background-color: black;
+        color: white;
+        top: 100px;
+    }
+
+    .navbar {
+        background-color: orange;
+        top: 40px;
+    }
+}
