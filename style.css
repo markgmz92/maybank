@@ -262,7 +262,7 @@ i {
 
     body {
         font-family: 'OCR A Extended';
-        background-color: white;
+        background-color: black;
     }
 
     h1 {
@@ -287,8 +287,8 @@ i {
         background-color: #007bff;
         border-color: #007bff;
         font-size: 20px;
-        top: 120px;
-        right: -15px;
+        top: 100px;
+        right: 0;
         position: fixed;
         z-index: -1;
     }
@@ -331,12 +331,11 @@ i {
         position: relative;
         background-color: black;
         color: white;
-        
-        top: 160px;
+        top: 120px;
     }
 
     .navbar {
         background-color: orange;
-        top: 80px;
+        top: 40px;
     }
 }
